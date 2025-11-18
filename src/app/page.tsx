@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -7,7 +7,7 @@ import TagAbout from '@/components/sections/about/TagAbout';
 import FeatureCardSeven from '@/components/sections/feature/FeatureCardSeven';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import PricingCardOne from '@/components/sections/pricing/PricingCardOne';
-import MetricCardTwo from '@/components/sections/metric/MetricCardTwo';
+import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import TeamCardTwo from '@/components/sections/team/TeamCardTwo';
 import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCardTwo';
 import SocialProofTwo from '@/components/sections/socialProof/SocialProofTwo';
@@ -95,42 +95,42 @@ export default function Home() {
           animationType="blur-reveal"
           features={[
             {
-              id: "1",
+              id: 1,
               title: "GPT-4 Powered Role Parsing",
               description: "Upload job briefs or project needs for instant sourcing plans with 95% accuracy",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1763457473078-zzktgurc.jpg",
               imageAlt: "AI role parsing technology"
             },
             {
-              id: "2",
+              id: 2,
               title: "Multi-Platform Candidate Sourcing",
               description: "AI searches millions of profiles across LinkedIn and private networks with 250M+ profiles",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1763457473897-itj351jg.jpg",
               imageAlt: "Candidate sourcing platforms"
             },
             {
-              id: "3",
+              id: 3,
               title: "AI-Powered Candidate ML Analysis",
               description: "AI analyzes work history for perfect role and candidate matching with machine learning",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1763457474397-fj8jxahq.jpg",
               imageAlt: "Machine learning analysis"
             },
             {
-              id: "4",
+              id: 4,
               title: "Real-Time Hiring Dashboard",
               description: "Everything you need in one place. No spreadsheets. No guesswork. Complete visibility.",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1763457474903-il9oracw.jpg",
               imageAlt: "Hiring dashboard interface"
             },
             {
-              id: "5",
+              id: 5,
               title: "Automated Verification Reports",
               description: "Automated, verified reports with reference outcomes and engagement insights",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1763457475691-gbd86k3k.jpg",
               imageAlt: "Verification and reporting system"
             },
             {
-              id: "6",
+              id: 6,
               title: "24/7 Ongoing Support",
               description: "Continuous support throughout the hiring process with dedicated AI assistance",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1763457476423-6vwrx7xt.jpg",
@@ -322,27 +322,6 @@ export default function Home() {
               testimonial: "95% accuracy isn't just a number - it's real. Every candidate they've sent has been a perfect fit for our construction projects.",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1763457481125-bvk29kft.jpg",
               imageAlt: "David Wilson - Operations Manager"
-            },
-            {
-              id: "4",
-              name: "Rachel Foster",
-              role: "HR Director",
-              testimonial: "The automated verification and reference checking saves us so much time. The quality of candidates is consistently high.",
-              icon: "UserCheck"
-            },
-            {
-              id: "5",
-              name: "Tom Anderson",
-              role: "Site Supervisor",
-              testimonial: "Being able to hire for future projects with stage-based timelines is game-changing for our construction schedules.",
-              icon: "Calendar"
-            },
-            {
-              id: "6",
-              name: "Sophie Martinez",
-              role: "Recruitment Lead",
-              testimonial: "The proactive sourcing means we're never scrambling for talent. StaffToday.AI keeps our pipeline full of qualified candidates.",
-              icon: "Search"
             }
           ]}
         />
@@ -360,9 +339,7 @@ export default function Home() {
             "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1763457482346-hx499y84.jpg",
             "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1763457483246-55ro70g4.jpg",
             "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1763457483816-6x2et2a0.jpg",
-            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1763457484900-ulgq7zys.jpg",
-            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1763457485735-rrhvfzbd.jpg",
-            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1763457486415-pr4b182j.jpg"
+            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1763457484900-ulgq7zys.jpg"
           ]}
         />
       </div>
